@@ -20,7 +20,7 @@ namespace Biljettshoppen.Tests
         [Fact]
         public void CreateBooking_ValidDetails_ShouldCreateBooking()
         {
-            // Arrange
+            // Arange
             var eventID = 1;
             var seatIDs = new List<int> { 1, 2, 3 };
             var selectedEvent = new Event
@@ -47,7 +47,7 @@ namespace Biljettshoppen.Tests
         [Fact]
         public void CreateBooking_ExceedSeatLimit_ShouldNotCreateBooking()
         {
-            // Arrange
+            // Arragne
             var eventID = 1;
             var seatIDs = new List<int> { 1, 2, 3, 4, 5, 6 };
             var selectedEvent = new Event
@@ -114,13 +114,13 @@ namespace Biljettshoppen.Tests
         public void CreateEvent_ValidDetails_ShouldCreateEvent()
         {
             // Act
-            var newEvent = eventManager.CreateEvent("Concert", "18:00", "2024-12-01", "Stadium");
+            var newEvent = eventManager.CreateEvent("Concert", "18:00", "2024-05-29", "Stadium");
 
             // Assert
             Assert.NotNull(newEvent);
             Assert.Equal("Concert", newEvent.EventName);
             Assert.Equal("18:00", newEvent.Time);
-            Assert.Equal("2024-12-01", newEvent.Date);
+            Assert.Equal("2024-05-29", newEvent.Date);
             Assert.Equal("Stadium", newEvent.Venue);
         }
 
@@ -128,7 +128,7 @@ namespace Biljettshoppen.Tests
         public void RemoveEvent_ValidEventID_ShouldRemoveEvent()
         {
             // Arrange
-            var newEvent = eventManager.CreateEvent("Concert", "18:00", "2024-12-01", "Stadium");
+            var newEvent = eventManager.CreateEvent("Concert", "18:00", "2024-05-29", "Stadium");
 
             // Act
             var result = eventManager.RemoveEvent(newEvent.EventID);
@@ -141,7 +141,7 @@ namespace Biljettshoppen.Tests
         public void EventExists_ValidEventID_ShouldReturnTrue()
         {
             // Arrange
-            var newEvent = eventManager.CreateEvent("Concert", "18:00", "2024-12-01", "Stadium");
+            var newEvent = eventManager.CreateEvent("Concert", "18:00", "2024-05-29", "Stadium");
 
             // Act
             var exists = eventManager.EventExists(newEvent.EventID);
@@ -149,5 +149,5 @@ namespace Biljettshoppen.Tests
             // Assert
             Assert.True(exists);
         }
-    } 
+    }
 }
