@@ -36,6 +36,7 @@ namespace Biljettshoppen.Tests
             var booking = bookingManager.CreateBooking("Intesar Mahamed", "h20intma@du.se", eventID, seatIDs, "Credit Card");
 
             // Assert
+            // jag har läggt detta i min github
             Assert.NotNull(booking);
             Assert.Equal("Intesar Mahamed", booking.Name);
             Assert.Equal("h20intma@du.se", booking.Email);
