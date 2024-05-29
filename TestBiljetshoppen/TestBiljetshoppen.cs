@@ -37,6 +37,7 @@ namespace Biljettshoppen.Tests
 
             // Assert
             // jag har läggt detta i min github
+             // jag tester github
             Assert.NotNull(booking);
             Assert.Equal("Intesar Mahamed", booking.Name);
             Assert.Equal("h20intma@du.se", booking.Email);
@@ -100,6 +101,7 @@ namespace Biljettshoppen.Tests
             Assert.True(result);
         }
     }
+     
 
     public class EventManagerTests
     {
