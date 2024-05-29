@@ -5,10 +5,11 @@ using System.Text.Json;
 using System.Linq;
 namespace Biljettshoppen
 {
+    //Constructor for the MainMenu class
     public class MainMenu
     {
-        private IBookingManager bookingManager;
-        private IEventManager eventManager;
+        private IBookingManager bookingManager; // Manager for handling bookings
+        private IEventManager eventManager; // Manager for handling events
 
         public MainMenu()
         {
@@ -17,18 +18,20 @@ namespace Biljettshoppen
         }
 
 
+       // Main loop for running the menu
         public void Run()
         {
             bool isRunning = true;
             while (isRunning)
             {
-                Console.Clear();
+                Console.Clear(); // Clear the console screen
 
                 Console.WriteLine("Welcome! Are you a User or Admin? ");
                 Console.WriteLine("1. User");
                 Console.WriteLine("2. Admin");
                 Console.WriteLine("3. Exit");
                 Console.Write("Select an option: ");
+                // Read user input and handle menu selection
                 if (int.TryParse(Console.ReadLine(), out int choice))
                 {
                     try
@@ -59,7 +62,8 @@ namespace Biljettshoppen
             }
         }
     }
-    
+
+    // Admin login method
         private bool AdminLogin()
         {
             Console.Clear();
@@ -70,7 +74,7 @@ namespace Biljettshoppen
             if (username == "admin" && password == "admin")
             {
                 Console.WriteLine("Admin login successful.");
-                Console.WriteLine("Press Enter to continue.");
+                Console.WriteLine("Press Enter to proceed.");
                 Console.ReadLine();
                 return true;
             }
@@ -81,7 +85,7 @@ namespace Biljettshoppen
                 return false;
             }
         }
-
+        // User menu method
         public void UserMenu()
         {
             bool isUserMenuRunning = true;
@@ -166,20 +170,20 @@ namespace Biljettshoppen
                                     }
                                     else
                                     {
-                                        Console.WriteLine("You can select up to 5 seats. Press Enter to continue.");
+                                        Console.WriteLine("You can select up to 5 seats. Press Enter to proceed.");
                                     }
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Invalid event selection. Press Enter to continue.");
+                                    Console.WriteLine("Invalid event selection. Press Enter to proceed.");
                                 }
                             }
                             else
                             {
-                                Console.WriteLine("Invalid event selection. Press Enter to continue.");
+                                Console.WriteLine("Invalid event selection. Press Enter to proceed.");
                             }
                             SaveData();
-                            Console.WriteLine("Press Enter to continue.");
+                            Console.WriteLine("Press Enter to proceed.");
                             Console.ReadLine();
                             break;
                             
@@ -190,16 +194,16 @@ namespace Biljettshoppen
                                     if (bookingManager.CancelBooking(bookingID))
                                     {
                                         Console.WriteLine("Booking canceled successfully.");
-                                        Console.WriteLine("Press Enter to continue.");
+                                        Console.WriteLine("Press Enter to proceed.");
                                     }
                                     else
                                     {
-                                        Console.WriteLine("Booking not found or could not be canceled. Press Enter to continue.");
+                                        Console.WriteLine("Booking not found or could not be canceled. Press Enter to proceed.");
                                     }
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Invalid BookingID. Press Enter to continue.");
+                                    Console.WriteLine("Invalid BookingID. Press Enter to proceed.");
                                 }
 
                                 Console.ReadLine();
@@ -219,7 +223,7 @@ namespace Biljettshoppen
                 }
             }
         }
-
+        // Admin menu method
         private void AdminMenu()
         {
             bool isAdminMenuRunning = true;
@@ -252,7 +256,7 @@ namespace Biljettshoppen
 
                                     Event newEvent = eventManager.CreateEvent(eventName, eventTime, eventDate, eventVenue);
                                     Console.WriteLine($"Event created with ID: {newEvent.EventID}");
-                                    Console.WriteLine("Press Enter to continue.");
+                                    Console.WriteLine("Press Enter to proceed.");
                                     Console.ReadLine();
                                     SaveData();
                                     break;
@@ -276,7 +280,7 @@ namespace Biljettshoppen
                                     Console.WriteLine("Invalid Event ID.");
                                 }
 
-                                Console.WriteLine("Press Enter to continue.");
+                                Console.WriteLine("Press Enter to proceed.");
                                 Console.ReadLine();
                                 SaveData();
                                 break;
@@ -284,7 +288,7 @@ namespace Biljettshoppen
                             case 3:
                                 Console.WriteLine("List of Events:");
                                 eventManager.ListEvents();
-                                Console.WriteLine("Press Enter to continue.");
+                                Console.WriteLine("Press Enter to proceed.");
                                 Console.ReadLine();
                                 break;
 
@@ -301,7 +305,7 @@ namespace Biljettshoppen
                 }
             }
         }
-
+        // Method to save data
         public void SaveData()
             {
                 eventManager.SaveData();
