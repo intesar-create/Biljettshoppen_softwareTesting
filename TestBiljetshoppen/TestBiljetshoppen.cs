@@ -38,6 +38,7 @@ namespace Biljettshoppen.Tests
             // Assert
             // jag har läggt detta i min github
              // jag tester github
+             // jag har testat github
             Assert.NotNull(booking);
             Assert.Equal("Intesar Mahamed", booking.Name);
             Assert.Equal("h20intma@du.se", booking.Email);
