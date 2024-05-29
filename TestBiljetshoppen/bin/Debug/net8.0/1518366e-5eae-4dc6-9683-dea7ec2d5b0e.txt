@@ -1,0 +1,9 @@
+Booking ID: 1
+Ticket ID: 1518366e-5eae-4dc6-9683-dea7ec2d5b0e
+Name: Intesar Mahamed
+Email: h20intma@du.se
+Event Name: 
+Event Venue: 
+Event ID: 1
+Seat IDs: 1, 2, 3
+Payment Method: Credit Card

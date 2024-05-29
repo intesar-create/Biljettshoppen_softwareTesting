@@ -1,0 +1,14 @@
+/Users/intesarhassenmahamed/Downloads/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/bin/Debug/net8.0/Biljettshoppen
+/Users/intesarhassenmahamed/Downloads/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/bin/Debug/net8.0/Biljettshoppen.deps.json
+/Users/intesarhassenmahamed/Downloads/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/bin/Debug/net8.0/Biljettshoppen.runtimeconfig.json
+/Users/intesarhassenmahamed/Downloads/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/bin/Debug/net8.0/Biljettshoppen.dll
+/Users/intesarhassenmahamed/Downloads/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/bin/Debug/net8.0/Biljettshoppen.pdb
+/Users/intesarhassenmahamed/Downloads/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/obj/Debug/net8.0/Biljettshoppen.GeneratedMSBuildEditorConfig.editorconfig
+/Users/intesarhassenmahamed/Downloads/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/obj/Debug/net8.0/Biljettshoppen.AssemblyInfoInputs.cache
+/Users/intesarhassenmahamed/Downloads/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/obj/Debug/net8.0/Biljettshoppen.AssemblyInfo.cs
+/Users/intesarhassenmahamed/Downloads/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/obj/Debug/net8.0/Biljettshoppen.csproj.CoreCompileInputs.cache
+/Users/intesarhassenmahamed/Downloads/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/obj/Debug/net8.0/Biljettshoppen.dll
+/Users/intesarhassenmahamed/Downloads/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/obj/Debug/net8.0/refint/Biljettshoppen.dll
+/Users/intesarhassenmahamed/Downloads/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/obj/Debug/net8.0/Biljettshoppen.pdb
+/Users/intesarhassenmahamed/Downloads/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/obj/Debug/net8.0/Biljettshoppen.genruntimeconfig.cache
+/Users/intesarhassenmahamed/Downloads/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/obj/Debug/net8.0/ref/Biljettshoppen.dll

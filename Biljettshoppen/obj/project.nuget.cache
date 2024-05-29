@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nhFn3VCaIVR7M9YDN5UkPtu4kW6RNM9Arkjh1Qbtq2UguQQQPVkREeVG0bOfY9+Zoo3m/M3logvt1iBW+rCo+Q==",
+  "success": true,
+  "projectFilePath": "/Users/intesarhassenmahamed/Desktop/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/Biljettshoppen.csproj",
+  "expectedPackageFiles": [
+    "/Users/intesarhassenmahamed/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

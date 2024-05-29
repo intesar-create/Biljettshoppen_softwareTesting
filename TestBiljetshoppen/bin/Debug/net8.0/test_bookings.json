@@ -1,0 +1,15 @@
+[
+  {
+    "BookingID": 1,
+    "Name": "Intesar Mahamed",
+    "Email": "h20intma@du.se",
+    "EventID": 1,
+    "SeatIDs": [
+      1,
+      2,
+      3
+    ],
+    "PaymentMethod": "Credit Card",
+    "TicketID": "83b46d76-0174-44e4-aef2-ab8864a1949d"
+  }
+]

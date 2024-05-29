@@ -1,0 +1,9 @@
+Booking ID: 1
+Ticket ID: 784299aa-e2e5-435e-945d-70c23cbe11b5
+Name: John Doe
+Email: john@example.com
+Event Name: 
+Event Venue: 
+Event ID: 1
+Seat IDs: 1, 2, 3
+Payment Method: Credit Card
