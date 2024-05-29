@@ -21,6 +21,7 @@ namespace Biljettshoppen.Tests
         public void CreateBooking_ValidDetails_ShouldCreateBooking()
         {
             // Arange
+            // provar pull request
             var eventID = 1;
             var seatIDs = new List<int> { 1, 2, 3 };
             var selectedEvent = new Event
