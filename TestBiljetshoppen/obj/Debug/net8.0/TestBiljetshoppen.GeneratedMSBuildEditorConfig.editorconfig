@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TestBiljetshoppen
-build_property.ProjectDir = /Users/intesarhassenmahamed/Desktop/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/TestBiljetshoppen/
+build_property.ProjectDir = /Users/intesarhassenmahamed/Documents/GitHub/Biljettshoppen_softwareTesting/TestBiljetshoppen/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
