@@ -70,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/intesarhassenmahamed/Desktop/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/Biljettshoppen.csproj",
+      "projectUniqueName": "/Users/intesarhassenmahamed/Documents/GitHub/Biljettshoppen_softwareTesting/Biljettshoppen/Biljettshoppen.csproj",
       "projectName": "Biljettshoppen",
-      "projectPath": "/Users/intesarhassenmahamed/Desktop/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/Biljettshoppen.csproj",
+      "projectPath": "/Users/intesarhassenmahamed/Documents/GitHub/Biljettshoppen_softwareTesting/Biljettshoppen/Biljettshoppen.csproj",
       "packagesPath": "/Users/intesarhassenmahamed/.nuget/packages/",
-      "outputPath": "/Users/intesarhassenmahamed/Desktop/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/obj/",
+      "outputPath": "/Users/intesarhassenmahamed/Documents/GitHub/Biljettshoppen_softwareTesting/Biljettshoppen/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/intesarhassenmahamed/.nuget/NuGet/NuGet.Config"
