@@ -1164,11 +1164,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/intesarhassenmahamed/Desktop/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/TestBiljetshoppen/TestBiljetshoppen.csproj",
+      "projectUniqueName": "/Users/intesarhassenmahamed/Documents/GitHub/Biljettshoppen_softwareTesting/TestBiljetshoppen/TestBiljetshoppen.csproj",
       "projectName": "TestBiljetshoppen",
-      "projectPath": "/Users/intesarhassenmahamed/Desktop/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/TestBiljetshoppen/TestBiljetshoppen.csproj",
+      "projectPath": "/Users/intesarhassenmahamed/Documents/GitHub/Biljettshoppen_softwareTesting/TestBiljetshoppen/TestBiljetshoppen.csproj",
       "packagesPath": "/Users/intesarhassenmahamed/.nuget/packages/",
-      "outputPath": "/Users/intesarhassenmahamed/Desktop/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/TestBiljetshoppen/obj/",
+      "outputPath": "/Users/intesarhassenmahamed/Documents/GitHub/Biljettshoppen_softwareTesting/TestBiljetshoppen/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/intesarhassenmahamed/.nuget/NuGet/NuGet.Config"
@@ -1184,8 +1184,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/intesarhassenmahamed/Desktop/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/Biljettshoppen.csproj": {
-              "projectPath": "/Users/intesarhassenmahamed/Desktop/Biljettshop_Test_2-main/Biljettshoppen_Tesning.git/Biljettshoppen/Biljettshoppen/Biljettshoppen.csproj"
+            "/Users/intesarhassenmahamed/Documents/GitHub/Biljettshoppen_softwareTesting/Biljettshoppen/Biljettshoppen.csproj": {
+              "projectPath": "/Users/intesarhassenmahamed/Documents/GitHub/Biljettshoppen_softwareTesting/Biljettshoppen/Biljettshoppen.csproj"
             }
           }
         }
